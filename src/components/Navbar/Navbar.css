@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.dd-menu {
+  position: absolute;
+  top: 50px;
+  padding: 10px 20px;
+  @apply w-xs;
+  @apply rounded-md;
+  @apply bg-green-700;
+  @apply flex flex-col gap-2 items-center;
+}
+
+.dd-menu.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dd-menu.inactive {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dd-container:hover {
+  cursor: pointer;
+}
