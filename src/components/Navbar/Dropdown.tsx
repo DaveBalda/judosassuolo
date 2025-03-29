@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 interface DropdownProps {
   children?: React.ReactNode;
@@ -14,6 +15,7 @@ function Dropdown({ children, name }: DropdownProps) {
     <div className="dd-container bg-inherit hover:bg-green-500 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg relative">
       <div className="dd-trigger" onClick={() => setOpen(!open)}>
         <p>{name}</p>
+        {open ? <FaChevronUp size={15} /> : <FaChevronDown size={15} />}
       </div>
 
       <div className={`dd-menu ${open ? "active" : "inactive"}`}>
