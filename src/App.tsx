@@ -2,7 +2,12 @@ import "./App.css";
 import PageLayout from "./components/PageLayout";
 
 function App() {
-  return <PageLayout></PageLayout>;
+  return (
+    <PageLayout>
+      {/*ToDo*/}
+      {/*ToDo*/}
+    </PageLayout>
+  );
 }
 
 export default App;
