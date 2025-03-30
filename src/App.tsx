@@ -1,11 +1,11 @@
 import "./App.css";
 import PageLayout from "./components/PageLayout";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <PageLayout>
-      {/*ToDo*/}
-      {/*ToDo*/}
+      <Home />
     </PageLayout>
   );
 }
