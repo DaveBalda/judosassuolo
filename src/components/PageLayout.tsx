@@ -30,16 +30,24 @@ function PageLayout({ children }: PageLayoutProps) {
         <Navbar>
           <NavLink href="/">Home</NavLink>
           <Dropdown name="Chi Siamo">
-            <div className="flex flex-col gap-2">
-              <DDItem href="#" name="Contatti">
-                <FaRegQuestionCircle size={20} />
-              </DDItem>
-              <DDItem href="/maestri" name="Maestri">
-                <IoIosPerson size={20} />
-              </DDItem>
-              <DDItem href="#" name="Corsi">
-                <GiWeightLiftingUp size={20} />
-              </DDItem>
+            <div className="flex flex-row gap-3">
+              <div>
+                <DDItem href="#" name="Contatti">
+                  <FaRegQuestionCircle size={20} />
+                </DDItem>
+                <DDItem href="/maestri" name="Maestri">
+                  <IoIosPerson size={20} />
+                </DDItem>
+              </div>
+              <div className="border-l border-white/50" />
+              <div>
+                <DDItem href="#" name="Corsi">
+                  <GiWeightLiftingUp size={20} />
+                </DDItem>
+                <DDItem href="#" name="Storia">
+                  <FaBook size={20} />
+                </DDItem>
+              </div>
             </div>
           </Dropdown>
           <Dropdown name="Il Judo">
@@ -49,9 +57,6 @@ function PageLayout({ children }: PageLayoutProps) {
               </DDItem>
               <DDItem href="#" name="Yudansha">
                 <GiBlackBelt size={20} />
-              </DDItem>
-              <DDItem href="#" name="Storia">
-                <FaBook size={20} />
               </DDItem>
             </div>
           </Dropdown>
@@ -81,6 +86,9 @@ function PageLayout({ children }: PageLayoutProps) {
               <SDDItem href="#" name="Corsi">
                 <GiWeightLiftingUp size={15} />
               </SDDItem>
+              <SDDItem href="#" name="Storia">
+                <FaBook size={15} />
+              </SDDItem>
             </div>
           </SDropdown>
           <SDropdown name="Il Judo">
@@ -90,9 +98,6 @@ function PageLayout({ children }: PageLayoutProps) {
               </SDDItem>
               <SDDItem href="#" name="Yudansha">
                 <GiBlackBelt size={15} />
-              </SDDItem>
-              <SDDItem href="#" name="Storia">
-                <FaBook size={15} />
               </SDDItem>
             </div>
           </SDropdown>

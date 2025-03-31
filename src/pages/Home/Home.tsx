@@ -21,7 +21,7 @@ function Home() {
               prima ancora di una palestra
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <p className="text-xl font-gidole flex flex-col gap-2 items-center">
+              <div className="text-xl font-gidole flex flex-col gap-2 items-center">
                 <p>
                   <strong>Judo Club Sassuolo</strong> è questo e molto altro.
                 </p>
@@ -33,7 +33,7 @@ function Home() {
                   soltanto il massimo dai nostri{" "}
                   <strong>istruttori professionisti</strong> e qualificati.
                 </p>
-              </p>
+              </div>
               <a
                 href="/maestri"
                 className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
@@ -60,7 +60,7 @@ function Home() {
               per migliorare
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <p className="text-xl font-gidole flex flex-col gap-2 items-center">
+              <div className="text-xl font-gidole flex flex-col gap-2 items-center">
                 <p>Il Judo è uno sport individuale, tuttavia è</p>
                 <p>
                   fondamentale <strong>collaborare</strong> per beneficiare al
@@ -70,7 +70,7 @@ function Home() {
                 <p>
                   da noi non sarai mai lasciato <strong>indietro</strong>!
                 </p>
-              </p>
+              </div>
               <a
                 href="#"
                 className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
