@@ -8,7 +8,7 @@ interface SidebarHeaderProps {
 
 function SidebarHeader({ open, setOpen }: SidebarHeaderProps) {
   return (
-    <header className="w-full py-5 px-5 bg-gradient-to-r from-green-700 to-green-800 shadow-lg shadow-gray-400 flex flex-row items-center">
+    <header className="w-full py-5 px-5 relative z-40 bg-emerald-700 flex flex-row items-center">
       <a href="#">
         <img
           src="/images/navbar.png"

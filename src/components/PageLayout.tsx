@@ -14,6 +14,7 @@ import SideLink from "./Sidebar/SideLink";
 import SDDItem from "./Sidebar/SDDItem";
 import "./components.css";
 import { IoCamera, IoHome } from "react-icons/io5";
+import Footer from "./Footer/Footer";
 
 interface PageLayoutProps {
   children?: React.ReactNode;
@@ -27,13 +28,13 @@ function PageLayout({ children }: PageLayoutProps) {
     <div>
       <div className="jcs_navbar">
         <Navbar>
-          <NavLink href="#">Home</NavLink>
+          <NavLink href="/">Home</NavLink>
           <Dropdown name="Chi Siamo">
             <div className="flex flex-col gap-2">
               <DDItem href="#" name="Contatti">
                 <FaRegQuestionCircle size={20} />
               </DDItem>
-              <DDItem href="#" name="Maestro">
+              <DDItem href="/maestri" name="Maestri">
                 <IoIosPerson size={20} />
               </DDItem>
               <DDItem href="#" name="Corsi">
@@ -57,12 +58,13 @@ function PageLayout({ children }: PageLayoutProps) {
           <NavLink href="#">Media</NavLink>
         </Navbar>
         <main className="min-h-screen">{children}</main>
+        <Footer />
       </div>
       <div className="jcs_sidebar relative">
         <SidebarHeader open={open} setOpen={setOpen} />
         <Sidebar open={open}>
           <span></span>
-          <SideLink href="#">
+          <SideLink href="/">
             <div className="flex flex-row gap-2 items-center">
               <IoHome size={25} />
               <p>Home</p>
@@ -73,7 +75,7 @@ function PageLayout({ children }: PageLayoutProps) {
               <SDDItem href="#" name="Contatti">
                 <FaRegQuestionCircle size={15} />
               </SDDItem>
-              <SDDItem href="#" name="Maestro">
+              <SDDItem href="/maestri" name="Maestri">
                 <IoIosPerson size={15} />
               </SDDItem>
               <SDDItem href="#" name="Corsi">
@@ -101,7 +103,10 @@ function PageLayout({ children }: PageLayoutProps) {
             </div>
           </SideLink>
         </Sidebar>
-        <main className="min-h-screen">{children}</main>
+        <div className="flex flex-col">
+          <main className="min-h-screen">{children}</main>
+          <Footer />
+        </div>
       </div>
     </div>
   );

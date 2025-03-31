@@ -6,8 +6,8 @@ interface NavbarProps {
 
 function Navbar({ children }: NavbarProps) {
   return (
-    <header className="w-full py-5 px-5 bg-gradient-to-r from-emerald-500 to-emerald-700 shadow-lg shadow-gray-400 flex flex-row items-center">
-      <a href="#">
+    <header className="w-full py-5 px-5 bg-emerald-700 shadow-lg shadow-gray-400 flex flex-row items-center">
+      <a href="/">
         <img
           src="/images/navbar.png"
           alt="Navigation Bar Image"
