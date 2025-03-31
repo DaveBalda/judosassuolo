@@ -44,7 +44,7 @@ function PageLayout({ children }: PageLayoutProps) {
                 <DDItem href="#" name="Corsi">
                   <GiWeightLiftingUp size={20} />
                 </DDItem>
-                <DDItem href="#" name="Storia">
+                <DDItem href="/storia" name="Storia">
                   <FaBook size={20} />
                 </DDItem>
               </div>
@@ -86,7 +86,7 @@ function PageLayout({ children }: PageLayoutProps) {
               <SDDItem href="#" name="Corsi">
                 <GiWeightLiftingUp size={15} />
               </SDDItem>
-              <SDDItem href="#" name="Storia">
+              <SDDItem href="/storia" name="Storia">
                 <FaBook size={15} />
               </SDDItem>
             </div>

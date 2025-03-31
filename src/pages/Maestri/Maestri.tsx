@@ -152,27 +152,112 @@ function Maestri() {
               />
             </div>
             <div className="flex flex-col items-center justify-center gap-24 mr-auto">
-              <h1 className="text-5xl font-bold font-oswald">
-                Daniele Di Martino
-              </h1>
+              <div className="flex flex-col items-center gap-3">
+                <h1 className="text-5xl font-bold font-oswald">
+                  Daniele Di Martino
+                </h1>
+                <h3 className="text-3xl font-oswald text-green-700">3° DAN</h3>
+              </div>
               <div className="flex flex-col gap-10 items-center">
                 <div className="text-xl font-gidole flex flex-col gap-2 items-center">
                   <p>
-                    <strong>Judo Club Sassuolo</strong> è questo e molto altro.
+                    Daniele non ha tardato a mostrare le sue abilità,
+                    conseguendo la <strong>cintura nera</strong>
+                  </p>
+                  <p>a soli 16 anni. Successivamente, ha dedicato gran parte</p>
+                  <p>
+                    del suo tempo e delle sue risorse alla{" "}
+                    <strong>formazione personale</strong>,
                   </p>
                   <p>
-                    Che tu sia un esperto judoka o qualcuno alle prime armi,
-                    possiamo garantirti
-                  </p>
-                  <p>
-                    soltanto il massimo dai nostri{" "}
-                    <strong>istruttori professionisti</strong> e qualificati.
+                    specialmente nell'ambito pedagogico delle scienze motorie.
                   </p>
                 </div>
               </div>
             </div>
           </div>
-          <MoreInfo>Storia di Daniele (WIP)</MoreInfo>
+          <MoreInfo>
+            <div className="flex flex-col items-center gap-14 px-32">
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2008 -2011
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele consegue il titolo di cintura nera{" "}
+                  <strong>1° dan</strong>.
+                </p>
+                <p className="text-center text-lg font-gidole">
+                  Nel 2011, conseguirà poi il titolo successivo, diventando
+                  cintura nera <strong>2° dan</strong>. Sempre lo stesso anno,
+                  diventa educatore professionale presso le scuole statali e
+                  centri estivi comunali.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2014
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele ottiene la <strong>laurea triennale</strong> in
+                  scienze motorie.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2015
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele inizia la sua carriera di{" "}
+                  <strong>docente di scienze motorie</strong> presso le scuole
+                  secondarie di secondo grado.
+                </p>
+                <p className="text-center text-lg font-gidole">
+                  Alla fine dello stesso anno, consegue il titolo di cintura
+                  nera <strong>3° dan</strong>.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2016
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele ottiene la <strong>laurea magistrale</strong> in
+                  Scienze e Tecniche delle Attività Motorie sportive e adattate.
+                </p>
+                <p className="text-center text-lg font-gidole">
+                  Sempre lo stesso anno, partecipa al corso per{" "}
+                  <strong>personal trainer</strong> della Federazaione Italiana
+                  Pesistica.
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2019 - 2020
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele ottiene un <strong>Master di primo livello</strong>{" "}
+                  sulle metodologie socio-pedagogiche negli insegnamenti di
+                  educazione motoria.
+                </p>
+                <p className="text-center text-lg font-gidole">
+                  L'anno dopo, ottiene un{" "}
+                  <strong>Master di primo livello</strong> sui bisogni educativi
+                  speciali. Si specializzerà, qualche anno dopo, anche sulle
+                  attività didattiche per alunni <strong>con disabilità</strong>
+                  .
+                </p>
+              </div>
+              <div className="flex flex-col items-center gap-2">
+                <h1 className="text-2xl font-bold font-oswald text-green-700">
+                  2025
+                </h1>
+                <p className="text-center text-lg font-gidole">
+                  Daniele possiede un <strong>Master di livello due</strong> in
+                  "Il Ruolo del Dirigente Scolastico".
+                </p>
+              </div>
+            </div>
+          </MoreInfo>
         </div>
       </div>
     </PageLayout>

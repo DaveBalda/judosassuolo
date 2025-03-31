@@ -80,7 +80,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-gray-200 shadow-2xl">
+        <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
           <img
             src="/images/home/oldpic.jpg"
             width="800px"
@@ -115,7 +115,7 @@ function Home() {
                 </p>
               </p>
               <a
-                href="#"
+                href="/storia"
                 className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
               >
                 La nostra storia

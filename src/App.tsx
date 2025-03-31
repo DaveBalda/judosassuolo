@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./pages/Home/Home";
 import Maestri from "./pages/Maestri/Maestri";
 import NotFound from "./pages/NotFound/NotFound";
+import Storia from "./pages/Storia/Storia";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
   {
     path: "/maestri",
     element: <Maestri />,
+  },
+  {
+    path: "/storia",
+    element: <Storia />,
   },
 ]);
 
