@@ -32,7 +32,7 @@ function PageLayout({ children }: PageLayoutProps) {
           <Dropdown name="Chi Siamo">
             <div className="flex flex-row gap-3">
               <div>
-                <DDItem href="#" name="Contatti">
+                <DDItem href="/contatti" name="Contatti">
                   <FaRegQuestionCircle size={20} />
                 </DDItem>
                 <DDItem href="/maestri" name="Maestri">
@@ -77,7 +77,7 @@ function PageLayout({ children }: PageLayoutProps) {
           </SideLink>
           <SDropdown name="Chi Siamo">
             <div className="flex flex-col gap-1 text-[16px]">
-              <SDDItem href="#" name="Contatti">
+              <SDDItem href="/contatti" name="Contatti">
                 <FaRegQuestionCircle size={15} />
               </SDDItem>
               <SDDItem href="/maestri" name="Maestri">

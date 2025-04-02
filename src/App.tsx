@@ -5,6 +5,7 @@ import Maestri from "./pages/Maestri/Maestri";
 import NotFound from "./pages/NotFound/NotFound";
 import Storia from "./pages/Storia/Storia";
 import Corsi from "./pages/Corsi/Corsi";
+import Contatti from "./pages/Contatti/Contatti";
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,11 @@ const router = createBrowserRouter([
   {
     path: "/corsi",
     element: <Corsi />,
+    errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
+  },
+  {
+    path: "/contatti",
+    element: <Contatti />,
     errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
   },
 ]);

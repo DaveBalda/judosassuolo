@@ -28,7 +28,7 @@ function SDropdown({ children, name }: SDropdownProps) {
 
   return (
     <div
-      className="sb-container flex flex-col gap-5 hover:bg-green-500 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg"
+      className="sb-container flex flex-col gap-5 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg"
       ref={menuRef}
     >
       <div className="sb-trigger" onClick={() => setOpen(!open)}>
