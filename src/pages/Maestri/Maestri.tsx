@@ -12,6 +12,7 @@ function Maestri() {
                 src="/images/maestri/giancarlo.png"
                 width="350px"
                 alt="Giancarlo Casolari"
+                className="bg-gray-300"
               />
             </div>
             <div className="flex flex-col items-center justify-center gap-24 ml-auto">

@@ -41,7 +41,7 @@ function PageLayout({ children }: PageLayoutProps) {
               </div>
               <div className="border-l border-white/50" />
               <div>
-                <DDItem href="#" name="Corsi">
+                <DDItem href="/corsi" name="Corsi">
                   <GiWeightLiftingUp size={20} />
                 </DDItem>
                 <DDItem href="/storia" name="Storia">
@@ -83,7 +83,7 @@ function PageLayout({ children }: PageLayoutProps) {
               <SDDItem href="/maestri" name="Maestri">
                 <IoIosPerson size={15} />
               </SDDItem>
-              <SDDItem href="#" name="Corsi">
+              <SDDItem href="/corsi" name="Corsi">
                 <GiWeightLiftingUp size={15} />
               </SDDItem>
               <SDDItem href="/storia" name="Storia">
