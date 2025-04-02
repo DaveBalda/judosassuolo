@@ -18,14 +18,16 @@ import Footer from "./Footer/Footer";
 
 interface PageLayoutProps {
   children?: React.ReactNode;
+  title: string;
 }
 
-function PageLayout({ children }: PageLayoutProps) {
+function PageLayout({ children, title }: PageLayoutProps) {
   // Hooks
   const [open, setOpen] = useState(false);
 
   return (
     <div>
+      <title>{title}</title>
       <div className="jcs_navbar">
         <Navbar>
           <NavLink href="/">Home</NavLink>

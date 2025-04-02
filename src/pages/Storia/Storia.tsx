@@ -2,7 +2,7 @@ import PageLayout from "../../components/PageLayout";
 
 function Storia() {
   return (
-    <PageLayout>
+    <PageLayout title="Storia">
       <div className="flex flex-col">
         <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
           <img

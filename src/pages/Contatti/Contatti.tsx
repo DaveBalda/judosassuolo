@@ -4,7 +4,7 @@ import { CiInstagram } from "react-icons/ci";
 
 function Contatti() {
   return (
-    <PageLayout>
+    <PageLayout title="Contatti">
       <div className="flex flex-col">
         <div className="h-fit flex flex-col gap-32 items-center py-24 px-32 bg-gray-200 shadow-2xl">
           <h1 className="text-5xl font-bold font-oswald">
@@ -20,12 +20,11 @@ function Contatti() {
                 <br />
                 <strong>Mail: </strong>judoclubsassuolo@gmail.com
                 <br />
-                <strong>Instagram: </strong>@judosassuolo
               </p>
             </div>
             <div className="border-l border-black h-[150px]" />
             <div className="flex flex-col gap-3 items-center">
-              <a href="mailto:judoclubsassuolo@gmail.com">
+              <a href="mailto:judoclubsassuolo@gmail.com" target="_blank">
                 <IoIosMail
                   className="text-green-700"
                   size={120}
@@ -35,11 +34,11 @@ function Contatti() {
             </div>
             <div className="border-l border-black h-[150px]" />
             <div className="flex flex-col gap-3 items-center">
-              <a href="https://www.instagram.com/judosassuolo/">
+              <a href="https://www.instagram.com/judosassuolo/" target="_blank">
                 <CiInstagram
                   className="text-green-700"
                   size={110}
-                  title="Invia una mail"
+                  title="Apri Instagram"
                 />
               </a>
             </div>

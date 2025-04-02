@@ -28,7 +28,7 @@ function Dropdown({ children, name }: DropdownProps) {
 
   return (
     <div
-      className="dd-container bg-inherit hover:bg-green-500 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg relative"
+      className="dd-container bg-inherit hover:bg-emerald-600 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg relative"
       ref={menuRef}
     >
       <div className="dd-trigger" onClick={() => setOpen(!open)}>

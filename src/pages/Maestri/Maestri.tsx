@@ -3,7 +3,7 @@ import MoreInfo from "./MoreInfo";
 
 function Maestri() {
   return (
-    <PageLayout>
+    <PageLayout title="Maestri">
       <div className="flex flex-col">
         <div className="flex flex-col gap-32 py-24 px-60 bg-gray-200 shadow-2xl">
           <div className="h-fit flex flex-row gap-32 items-center">

@@ -9,7 +9,7 @@ function NavLink({ children, href }: NavLinkProps) {
   return (
     <a
       href={href}
-      className="bg-inherit hover:bg-green-500 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg"
+      className="bg-inherit hover:bg-emerald-600 px-5 py-2 rounded-md text-neutral-200 font-bold text-lg"
     >
       {children}
     </a>

@@ -2,7 +2,7 @@ import PageLayout from "../../components/PageLayout";
 
 function Corsi() {
   return (
-    <PageLayout>
+    <PageLayout title="Corsi">
       <div className="flex flex-col">
         <div className="h-fit flex flex-col gap-10 items-center py-24 px-52 bg-gray-200 shadow-2xl">
           <h1 className="text-5xl font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">

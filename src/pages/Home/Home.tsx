@@ -3,7 +3,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <PageLayout>
+    <PageLayout title="Home">
       <div className="flex flex-col">
         <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-gray-200 shadow-2xl">
           <img
