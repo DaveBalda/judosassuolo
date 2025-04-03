@@ -1,20 +1,21 @@
 import PageLayout from "../../components/PageLayout";
+import "./Corsi.css";
 
 function Corsi() {
   return (
     <PageLayout title="Corsi">
       <div className="flex flex-col">
-        <div className="h-fit flex flex-col gap-10 items-center py-24 px-52 bg-gray-200 shadow-2xl">
-          <h1 className="text-5xl font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
+        <div className="h-fit flex flex-col gap-10 items-center py-24 lg:px-40 bg-gray-200 shadow-2xl">
+          <h1 className="text-5xl text-center font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
             Elementari
           </h1>
           <hr className="w-full border-gray-300" />
-          <div className="flex flex-row gap-24 items-center">
-            <div className="rounded-xl w-[700px] max-h-[700px] h-auto overflow-hidden border">
+          <div className="corsi-row items-center">
+            <div className="corsi-wrapper">
               <img
                 src="/images/corsi/bimbimedals.jpeg"
-                width="700px"
-                alt="Corso Junior"
+                alt="Corso Elementari"
+                className="corsi-image"
               />
             </div>
             <div className="flex flex-col w-full justify-center items-center gap-20 text-center px-10">
@@ -46,17 +47,17 @@ function Corsi() {
             </div>
           </div>
         </div>
-        <div className="h-fit flex flex-col gap-10 items-center py-24 px-52 shadow-2xl">
-          <h1 className="text-5xl font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
+        <div className="h-fit flex flex-col gap-10 items-center py-24 lg:px-40 shadow-2xl">
+          <h1 className="text-5xl text-center font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
             Avanzati
           </h1>
           <hr className="w-full border-gray-300" />
-          <div className="flex flex-row gap-24 items-center">
-            <div className="rounded-xl w-[700px] max-h-[700px] h-auto overflow-hidden border">
+          <div className="corsi-row items-center">
+            <div className="corsi-wrapper">
               <img
                 src="/images/corsi/bimbi.jpeg"
-                width="700px"
-                alt="Corso Junior"
+                alt="Corso Avanzati"
+                className="corsi-image"
               />
             </div>
             <div className="flex flex-col w-full justify-center items-center gap-20 text-center px-10">
@@ -89,17 +90,17 @@ function Corsi() {
             </div>
           </div>
         </div>
-        <div className="h-fit flex flex-col gap-10 items-center py-24 px-52 bg-emerald-300/40 shadow-2xl">
-          <h1 className="text-5xl font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
-            Adulti e agonisti
+        <div className="h-fit flex flex-col gap-10 items-center py-24 lg:px-40 bg-emerald-300/40 shadow-2xl">
+          <h1 className="text-5xl text-center font-bold font-oswald pt-2 pb-3.5 px-4 bg-green-900 rounded-3xl text-white">
+            Adulti
           </h1>
           <hr className="w-full border-emerald-300/60" />
-          <div className="flex flex-row gap-24 items-center">
-            <div className="rounded-xl w-[700px] max-h-[700px] h-auto overflow-hidden border">
+          <div className="corsi-row items-center">
+            <div className="corsi-wrapper">
               <img
                 src="/images/corsi/gruppograndi.jpeg"
-                width="700px"
-                alt="Corso Junior"
+                alt="Corso Adulti"
+                className="corsi-image"
               />
             </div>
             <div className="flex flex-col w-full justify-center items-center gap-20 text-center px-10">
