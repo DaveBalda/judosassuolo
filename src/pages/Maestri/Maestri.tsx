@@ -1,54 +1,41 @@
 import PageLayout from "../../components/PageLayout";
 import MoreInfo from "./MoreInfo";
+import "./Maestri.css";
 
 function Maestri() {
   return (
     <PageLayout title="Maestri">
       <div className="flex flex-col">
-        <div className="flex flex-col gap-32 py-24 px-60 bg-gray-200 shadow-2xl">
-          <div className="h-fit flex flex-row gap-32 items-center">
-            <div className="rounded-full w-[350px] max-h-[350px] h-auto overflow-hidden border">
+        <div className="flex flex-col gap-32 py-24 bg-gray-200 shadow-2xl">
+          <div className="h-fit maestri-row-regular items-center justify-center">
+            <div className="maestri-wrapper">
               <img
                 src="/images/maestri/giancarlo.png"
-                width="350px"
                 alt="Giancarlo Casolari"
-                className="bg-gray-300"
+                className="maestri-image"
               />
             </div>
-            <div className="flex flex-col items-center justify-center gap-24 ml-auto">
+            <div className="flex flex-col items-center justify-center gap-24 lg:px-20">
               <div className="flex flex-col items-center gap-3">
-                <h1 className="text-5xl font-bold font-oswald">
-                  Giancarlo Casolari
-                </h1>
-                <h3 className="text-3xl font-oswald text-green-700">5° DAN</h3>
+                <h1 className="font-bold font-oswald">Giancarlo Casolari</h1>
+                <h3 className="font-oswald text-green-700">5° DAN</h3>
               </div>
               <div className="flex flex-col gap-10 items-center">
-                <div className="text-xl font-gidole flex flex-col gap-2 items-center">
+                <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
                   <p>
                     Il maestro Casolari porta con se un'esperienza{" "}
-                    <strong>ultradecennale</strong> nell'ambito
-                  </p>
-                  <p>
-                    delle arti marziali e della difesa personale, con un focus
-                    specifico sul Judo, studiato
-                  </p>
-                  <p>
-                    sotto tutti i suoi aspetti: <strong>tecnico</strong>,{" "}
-                    <strong>artistico</strong> e <strong>pedagogico</strong>.
-                  </p>
-                  <br />
-                  <p>
+                    <strong>ultradecennale</strong> nell'ambito delle arti
+                    marziali e della difesa personale, con un focus specifico
+                    sul Judo, studiato sotto tutti i suoi aspetti:{" "}
+                    <strong>tecnico</strong>, <strong>artistico</strong> e{" "}
+                    <strong>pedagogico</strong>.
+                    <br />
                     L'
                     <strong>
                       Accademia Nazionale Italiana Judo e Karate
                     </strong>{" "}
-                    rilascia a Giancarlo, nel 1981,
-                  </p>
-                  <p>
-                    il brevetto da aspirante istruttore, rendendolo a tutti gli
-                    effetti il primo
-                  </p>
-                  <p>
+                    rilascia a Giancarlo, nel 1981, il brevetto da aspirante
+                    istruttore, rendendolo a tutti gli effetti il primo
                     sassolese ad acquisire il <strong>grado di cintura</strong>{" "}
                     nera in un arte marziale
                   </p>
@@ -57,7 +44,7 @@ function Maestri() {
             </div>
           </div>
           <MoreInfo>
-            <div className="flex flex-col items-center gap-14 px-32">
+            <div className="maestri-moreinfo flex flex-col items-center gap-14">
               <div className="flex flex-col items-center gap-2">
                 <h1 className="text-2xl font-bold font-oswald text-green-700">
                   1981 - 1982
@@ -143,42 +130,36 @@ function Maestri() {
             </div>
           </MoreInfo>
         </div>
-        <div className="flex flex-col gap-32 py-24 px-60 mt-20 mb-12">
-          <div className="h-fit flex flex-row-reverse gap-10 items-center justify-center">
-            <div className="rounded-full w-[350px] max-h-[350px] overflow-hidden border">
+        <div className="flex flex-col gap-32 py-24">
+          <div className="h-fit maestri-row-reversed flex flex-row-reverse gap-32 items-center justify-center">
+            <div className="maestri-wrapper">
               <img
                 src="/images/maestri/daniele.jpeg"
                 width="350px"
                 alt="Daniele Di Martino"
+                className="maestri-image"
               />
             </div>
-            <div className="flex flex-col items-center justify-center gap-24 mr-auto">
+            <div className="flex flex-col items-center justify-center gap-24 lg:px-20">
               <div className="flex flex-col items-center gap-3">
-                <h1 className="text-5xl font-bold font-oswald">
-                  Daniele Di Martino
-                </h1>
-                <h3 className="text-3xl font-oswald text-green-700">3° DAN</h3>
+                <h1 className="font-bold font-oswald">Daniele Di Martino</h1>
+                <h3 className="font-oswald text-green-700">3° DAN</h3>
               </div>
               <div className="flex flex-col gap-10 items-center">
-                <div className="text-xl font-gidole flex flex-col gap-2 items-center">
+                <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
                   <p>
                     Daniele non ha tardato a mostrare le sue abilità,
-                    conseguendo la <strong>cintura nera</strong>
-                  </p>
-                  <p>a soli 16 anni. Successivamente, ha dedicato gran parte</p>
-                  <p>
-                    del suo tempo e delle sue risorse alla{" "}
-                    <strong>formazione personale</strong>,
-                  </p>
-                  <p>
-                    specialmente nell'ambito pedagogico delle scienze motorie.
+                    conseguendo la <strong>cintura nera</strong> a soli 16 anni.
+                    Successivamente, ha dedicato gran parte del suo tempo e
+                    delle sue risorse alla <strong>formazione personale</strong>
+                    , specialmente nell'ambito pedagogico delle scienze motorie.
                   </p>
                 </div>
               </div>
             </div>
           </div>
           <MoreInfo>
-            <div className="flex flex-col items-center gap-14 px-32">
+            <div className="maestri-moreinfo flex flex-col items-center gap-14">
               <div className="flex flex-col items-center gap-2">
                 <h1 className="text-2xl font-bold font-oswald text-green-700">
                   2008 -2011
