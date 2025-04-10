@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.tecniche-wrapper {
+  @apply min-w-[500px] flex overflow-hidden rounded-2xl justify-center;
+}
+
+.tecniche-wrapper img {
+  @apply w-[500px];
+}
+
+.small-wrapper {
+  @apply w-[250px] border flex overflow-hidden rounded-2xl justify-center;
+}
+
+.small-wrapper img {
+  @apply w-[250px];
+}

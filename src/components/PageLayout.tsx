@@ -54,7 +54,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
           </Dropdown>
           <Dropdown name="Il Judo">
             <div className="flex flex-col gap-4">
-              <DDItem href="#" name="Tecniche">
+              <DDItem href="/tecniche" name="Tecniche">
                 <MdSportsMartialArts size={20} />
               </DDItem>
               <DDItem href="#" name="Yudansha">
@@ -95,7 +95,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
           </SDropdown>
           <SDropdown name="Il Judo">
             <div className="flex flex-col gap-1 text-[16px]">
-              <SDDItem href="#" name="Teniche">
+              <SDDItem href="/tecniche" name="Teniche">
                 <MdSportsMartialArts size={15} />
               </SDDItem>
               <SDDItem href="#" name="Yudansha">

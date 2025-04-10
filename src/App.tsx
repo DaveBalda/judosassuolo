@@ -6,6 +6,7 @@ import NotFound from "./pages/NotFound/NotFound";
 import Storia from "./pages/Storia/Storia";
 import Corsi from "./pages/Corsi/Corsi";
 import Contatti from "./pages/Contatti/Contatti";
+import Tecniche from "./pages/Tecniche/Tecniche";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,11 @@ const router = createBrowserRouter([
   {
     path: "/contatti",
     element: <Contatti />,
+    errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
+  },
+  {
+    path: "/tecniche",
+    element: <Tecniche />,
     errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
   },
 ]);
