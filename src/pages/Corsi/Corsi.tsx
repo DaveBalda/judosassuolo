@@ -122,10 +122,11 @@ function Corsi() {
                   Il corso è adatto a tutti coloro che vogliono praticare il
                   Judo a livello <strong>amatoriale</strong> o{" "}
                   <strong>agonistico</strong>. Verranno praticate tecniche di
-                  livello base, tecnico di livello medio e tecniche difficili,
-                  tenendo ovviamente conto del livello del singolo atleta. Sarà
-                  possibile anche <strong>mettersi alla prova</strong> e
-                  partecipare a competizioni da tutta Italia.
+                  livello base, tecniche di difficoltà media e tecniche di
+                  livello superiore, tenendo ovviamente conto del livello del
+                  singolo atleta. Sarà possibile anche{" "}
+                  <strong>mettersi alla prova</strong> e partecipare a
+                  competizioni da tutta Italia.
                 </p>
               </div>
             </div>

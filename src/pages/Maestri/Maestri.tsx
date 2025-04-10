@@ -37,7 +37,7 @@ function Maestri() {
                     rilascia a Giancarlo, nel 1981, il brevetto da aspirante
                     istruttore, rendendolo a tutti gli effetti il primo
                     sassolese ad acquisire il <strong>grado di cintura</strong>{" "}
-                    nera in un arte marziale
+                    nera in un'arte marziale
                   </p>
                 </div>
               </div>
