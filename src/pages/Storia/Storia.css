@@ -1,0 +1,119 @@
+@import "tailwindcss";
+
+.storia-regular {
+  @apply h-fit flex flex-row gap-20 items-center py-32 px-52;
+  @media (width < 1400px) {
+    @apply px-32;
+  }
+  @media (width < 1225px) {
+    @apply flex-col gap-20;
+  }
+  @media (width < 760px) {
+    @apply px-20;
+  }
+  @media (width < 460px) {
+    @apply px-10;
+  }
+}
+
+.storia-regular img {
+  @apply rounded-2xl w-[700px] h-[auto];
+  @media (width < 1225px) {
+    @apply w-[600px];
+  }
+  @media (width < 460px) {
+    @apply w-full h-[auto];
+  }
+}
+
+.storia-reversed {
+  @apply h-fit flex flex-row-reverse gap-20 items-center py-32 px-52;
+  @media (width < 1400px) {
+    @apply px-32;
+  }
+  @media (width < 1225px) {
+    @apply flex-col gap-20;
+  }
+  @media (width < 760px) {
+    @apply px-20;
+  }
+  @media (width < 460px) {
+    @apply px-10;
+  }
+}
+
+.storia-reversed img {
+  @apply rounded-2xl w-[700px] h-[auto];
+  @media (width < 1225px) {
+    @apply w-[600px];
+  }
+  @media (width < 460px) {
+    @apply w-full h-[auto];
+  }
+}
+
+.storia-images-1 {
+  @apply h-fit py-32 flex flex-row gap-20 items-center justify-center;
+  @media (width < 1180px) {
+    @apply flex-col;
+  }
+  @media (width < 460px) {
+    @apply px-5 gap-5 py-20;
+  }
+}
+.storia-images-1 img {
+  @apply w-[auto] h-[350px] rounded-3xl;
+  @media (width < 1450px) {
+    @apply h-[300px];
+  }
+  @media (width < 1180px) {
+    @apply w-[600px] h-[auto];
+  }
+  @media (width < 760px) {
+    @apply w-[500px] h-[auto];
+  }
+  @media (width < 580px) {
+    @apply w-[400px] h-[auto];
+  }
+  @media (width < 460px) {
+    @apply w-full h-[auto];
+  }
+}
+
+.storia-images-2 {
+  @apply h-fit py-32 flex flex-row gap-20 items-center justify-center;
+  @media (width < 1180px) {
+    @apply flex-col;
+  }
+  @media (width < 460px) {
+    @apply px-5 gap-5 py-20;
+  }
+}
+.storia-images-2 img {
+  @apply w-[auto] h-[400px] rounded-3xl;
+  @media (width < 1450px) {
+    @apply h-[350px];
+  }
+  @media (width < 1180px) {
+    @apply w-[600px] h-[auto];
+  }
+  @media (width < 760px) {
+    @apply w-[500px] h-[auto];
+  }
+  @media (width < 580px) {
+    @apply w-[400px] h-[auto];
+  }
+  @media (width < 460px) {
+    @apply w-full h-[auto];
+  }
+}
+
+.storia-text-box {
+  @apply text-xl text-center flex px-20;
+  @media (width < 1500px) {
+    @apply px-10;
+  }
+  @media (width < 760px) {
+    @apply px-0;
+  }
+}

@@ -1,78 +1,55 @@
 import PageLayout from "../../components/PageLayout";
+import "./Storia.css";
 
 function Storia() {
   return (
     <PageLayout title="Storia">
       <div className="flex flex-col">
-        <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
-          <img
-            src="/images/storia/oldpic3.jpg"
-            width="700px"
-            height="auto"
-            alt="Giancarlo e Daniele"
-            className="rounded-2xl"
-          />
+        <div className="storia-regular bg-emerald-600/50 shadow-2xl">
+          <div className="storia-wrapper">
+            <img src="/images/storia/oldpic3.jpg" alt="Giancarlo e Daniele" />
+          </div>
           <div className="flex flex-col w-full items-center justify-center gap-24">
-            <h1 className="text-5xl font-bold font-oswald">
+            <h1 className="text-5xl text-center font-bold font-oswald">
               Il Judo Club Sassuolo
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <div className="text-xl font-gidole flex flex-col gap-2 items-center">
+              <div className="storia-text-box font-gidole flex-col gap-10 items-center">
                 <p>
                   Affiliato alla{" "}
                   <strong>
                     Federazione Italiana Judo Lotta Karate Arti Marziali
                   </strong>
-                  ,
-                </p>
-                <p>Judo Club Sassuolo nasce nel settembre 1988.</p>
-                <p>
-                  Viene fondato dal Prof. Giancarlo Casolari che, assieme ai
-                  suoi più giovani.
-                </p>
-                <p>
+                  , Judo Club Sassuolo nasce nel settembre 1988. Viene fondato
+                  dal Prof. Giancarlo Casolari che, assieme ai suoi più giovani.
                   allievi ed ai genitori di questi decide di costituire una
-                  società sportiva il cui scopo non fosse il
-                </p>
-                <p>
-                  solo raggiungimento di <strong>risultati agonistici</strong>{" "}
-                  ma curasse, prima di tutto,
-                </p>
-                <p>
-                  l'educazione fisica e l'aspetto{" "}
+                  società sportiva il cui scopo non fosse il solo raggiungimento
+                  di <strong>risultati agonistici</strong> ma curasse, prima di
+                  tutto, l'educazione fisica e l'aspetto{" "}
                   <strong>psico-pedagogico</strong> della disciplina.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="h-fit my-10 py-24 flex flex-row gap-20 items-center justify-center px-52">
-          <img
-            src="/images/storia/oldpic1.jpg"
-            className="w-[auto] h-[350px] rounded-3xl"
-            alt="Corso Vecchio"
-          />
-          <img
-            src="/images/storia/oldpic2.jpg"
-            className="w-[auto] h-[350px] rounded-3xl"
-            alt="Corso Storico"
-          />
+        <div className="storia-images-1">
+          <img src="/images/storia/oldpic1.jpg" alt="Corso Vecchio" />
+          <img src="/images/storia/oldpic2.jpg" alt="Corso Storico" />
         </div>
-        <div className="h-fit flex flex-row-reverse gap-20 items-center py-32 px-52 bg-gray-200 shadow-2xl">
-          <img
-            src="/images/storia/medagliabimbi.jpeg"
-            width="600px"
-            height="auto"
-            alt="Bimbi con Medaglie"
-            className="rounded-2xl"
-          />
+        <div className="storia-regular h-fit flex flex-row-reverse gap-20 items-center py-32 px-52 bg-gray-200 shadow-2xl">
+          <div className="storia-wrapper">
+            <img
+              src="/images/storia/medagliabimbi.jpeg"
+              alt="Bimbi con Medaglie"
+            />
+          </div>
           <div className="flex flex-col w-full items-center justify-center gap-24">
-            <h1 className="text-5xl font-bold font-oswald">
+            <h1 className="text-5xl text-center font-bold font-oswald">
               Formiamo dei campioni
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <div className="text-xl font-gidole flex px-20 flex-col gap-2 items-center">
-                <p className="text-center">
+              <div className="storia-text-box font-gidole flex-col gap-10 items-center">
+                <p>
                   Nel 1991, grazie al lavoro svolto con i bambini, il Judo Club
                   Sassuolo viene riconosciuto{" "}
                   <strong>centro C.O.N.I. di avviamento allo sport</strong>. Dal
@@ -87,7 +64,7 @@ function Storia() {
             </div>
           </div>
         </div>
-        <div className="h-fit my-10 py-24 flex flex-row gap-20 items-center justify-center px-52">
+        <div className="storia-images-2">
           <img
             src="/images/storia/corsofiero.jpeg"
             className="w-[auto] h-[400px] rounded-3xl"
@@ -99,21 +76,23 @@ function Storia() {
             alt="Banner"
           />
         </div>
-        <div className="h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
-          <img
-            src="/images/storia/piegamenti.jpeg"
-            width="600px"
-            height="auto"
-            alt="Bimbi con Medaglie"
-            className="rounded-2xl"
-          />
+        <div className="storia-reversed h-fit flex flex-row gap-20 items-center py-32 px-52 bg-emerald-600/50 shadow-2xl">
+          <div className="storia-wrapper">
+            <img
+              src="/images/storia/piegamenti.jpeg"
+              width="600px"
+              height="auto"
+              alt="Bimbi con Medaglie"
+              className="rounded-2xl"
+            />
+          </div>
           <div className="flex flex-col w-full items-center justify-center gap-24">
-            <h1 className="text-5xl font-bold font-oswald">
+            <h1 className="text-5xl text-center font-bold font-oswald">
               Essere forti, per essere utili
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <div className="text-xl font-gidole flex px-20 flex-col gap-10 items-center">
-                <p className="text-center">
+              <div className="storia-text-box font-gidole flex-col gap-10 items-center">
+                <p>
                   Nel gennaio 2004 viene istituito presso la palestra{" "}
                   <strong>"ex Monari"</strong> il primo corso di M.G.A. (Metodo
                   Globale di Autodifesa). Dal settembre 2004, per sottolineare
