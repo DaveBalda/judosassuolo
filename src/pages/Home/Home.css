@@ -2,7 +2,7 @@
 
 .home-row-regular {
   @media (width < 550px) {
-    @apply px-6 flex-col gap-32;
+    @apply px-6 flex-col gap-20;
   }
   @media (width >= 550px) {
     @apply px-20 flex-col gap-32;
@@ -23,6 +23,12 @@
   }
 }
 
+.subset {
+  @media (width < 550px) {
+    @apply gap-10;
+  }
+}
+
 .home-row-regular h1 {
   @media (width < 550px) {
     @apply text-4xl/15;
@@ -31,7 +37,7 @@
 
 .home-row-reversed {
   @media (width < 550px) {
-    @apply px-6 flex-col gap-32;
+    @apply px-6 flex-col gap-20;
   }
   @media (width >= 550px) {
     @apply px-20 flex-col gap-32;
@@ -81,7 +87,7 @@
   }
 }
 
-.home-wrapper .image {
+.home-wrapper img {
   @media (width < 375px) {
     @apply w-[250px] flex overflow-hidden rounded-2xl justify-center;
   }

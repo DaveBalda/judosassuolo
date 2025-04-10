@@ -7,13 +7,9 @@ function Home() {
       <div className="flex flex-col">
         <div className="home-row-regular h-fit flex items-center justify-center py-32 bg-gray-200 shadow-2xl">
           <div className="home-wrapper">
-            <img
-              src="/images/home/logo.webp"
-              alt="Logo JCS"
-              className="image"
-            />
+            <img src="/images/home/logo.webp" alt="Logo JCS" />
           </div>
-          <div className="flex flex-col items-center justify-center gap-24">
+          <div className="subset flex flex-col items-center justify-center gap-24">
             <h1 className="text-5xl/20 text-center font-bold font-oswald">
               Una{" "}
               <span className="pt-0.5 pb-2 px-3 bg-black rounded-4xl text-white">
@@ -42,13 +38,9 @@ function Home() {
         </div>
         <div className="home-row-reversed h-fit flex items-center justify-center py-32">
           <div className="home-wrapper">
-            <img
-              src="/images/home/rossella.jpg"
-              alt="Lezione"
-              className="image"
-            />
+            <img src="/images/home/rossella.jpg" alt="Lezione" />
           </div>
-          <div className="flex flex-col items-center justify-center gap-24">
+          <div className="subset flex flex-col items-center justify-center gap-24">
             <h1 className="text-5xl/20 text-center text-green-900 font-bold font-oswald">
               Tutti{" "}
               <span className="pt-0.5 pb-2 px-3 bg-green-900 rounded-3xl text-white">
@@ -76,13 +68,9 @@ function Home() {
         </div>
         <div className="home-row-regular h-fit flex items-center justify-center py-32 bg-emerald-600/50 shadow-2xl">
           <div className="home-wrapper">
-            <img
-              src="/images/home/oldpic.jpg"
-              alt="Immagine Vecchia"
-              className="image"
-            />
+            <img src="/images/home/oldpic.jpg" alt="Immagine Vecchia" />
           </div>
-          <div className="flex flex-col items-center justify-center gap-24">
+          <div className="subset flex flex-col items-center justify-center gap-24">
             <h1 className="text-5xl/20 text-center font-bold font-oswald">
               Il nostro lavoro dal{" "}
               <span className="pt-0.5 pb-2 px-3 bg-black rounded-4xl text-white">
