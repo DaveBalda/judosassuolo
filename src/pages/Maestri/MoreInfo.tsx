@@ -20,7 +20,7 @@ function MoreInfo({ children }: MoreInfoProps) {
         <p className="font-gidole text-lg">La mia storia</p>
       </button>
       <div
-        className={`border-l border-r rounded-sm border-gray-600 w-3/4 ${
+        className={`border-l border-r rounded-sm border-gray-600 w-5/6 ${
           open ? "block" : "hidden"
         } `}
       >

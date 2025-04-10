@@ -2,7 +2,7 @@
 
 .maestri-row-regular {
   @media (width < 550px) {
-    @apply px-5 flex flex-col gap-32;
+    @apply px-5 flex flex-col gap-10;
   }
   @media (width >= 550px) {
     @apply px-20 flex flex-col gap-32;
@@ -35,7 +35,7 @@
 
 .maestri-row-reversed {
   @media (width < 550px) {
-    @apply px-5 flex flex-col gap-32;
+    @apply px-5 flex flex-col gap-10;
   }
   @media (width >= 550px) {
     @apply px-20 flex flex-col gap-32;
@@ -85,7 +85,7 @@
 }
 
 .maestri-moreinfo {
-  @apply px-10;
+  @apply px-6;
   @media (width >= 700px) {
     @apply px-32;
   }

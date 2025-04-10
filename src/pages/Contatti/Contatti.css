@@ -1,7 +1,10 @@
 @import "tailwindcss";
 
 .contatti-lower {
-  @media (width < 1200px) {
+  @media (width < 500px) {
+    @apply flex flex-col gap-10 px-2;
+  }
+  @media (width >= 500px) {
     @apply flex flex-col gap-10 px-10;
   }
   @media (width >= 1200px) {
@@ -12,7 +15,7 @@
 .contatti-upper {
   @apply px-32;
   @media (width < 740px) {
-    @apply px-10;
+    @apply px-10 gap-20;
   }
 }
 

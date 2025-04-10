@@ -6,7 +6,7 @@ function Maestri() {
   return (
     <PageLayout title="Maestri">
       <div className="flex flex-col">
-        <div className="flex flex-col gap-32 py-24 bg-gray-200 shadow-2xl">
+        <div className="flex flex-col gap-24 py-24 bg-gray-200 shadow-2xl">
           <div className="h-fit maestri-row-regular items-center justify-center">
             <div className="maestri-wrapper">
               <img
@@ -15,7 +15,7 @@ function Maestri() {
                 className="maestri-image"
               />
             </div>
-            <div className="flex flex-col items-center justify-center gap-24 lg:px-20">
+            <div className="flex flex-col items-center justify-center gap-16 lg:px-20">
               <div className="flex flex-col items-center gap-3">
                 <h1 className="font-bold font-oswald">Giancarlo Casolari</h1>
                 <h3 className="font-oswald text-green-700">5° DAN</h3>
@@ -130,7 +130,7 @@ function Maestri() {
             </div>
           </MoreInfo>
         </div>
-        <div className="flex flex-col gap-32 py-24">
+        <div className="flex flex-col gap-24 py-24">
           <div className="h-fit maestri-row-reversed flex flex-row-reverse gap-32 items-center justify-center">
             <div className="maestri-wrapper">
               <img
@@ -140,7 +140,7 @@ function Maestri() {
                 className="maestri-image"
               />
             </div>
-            <div className="flex flex-col items-center justify-center gap-24 lg:px-20">
+            <div className="flex flex-col items-center justify-center gap-16 lg:px-20">
               <div className="flex flex-col items-center gap-3">
                 <h1 className="font-bold font-oswald">Daniele Di Martino</h1>
                 <h3 className="font-oswald text-green-700">3° DAN</h3>

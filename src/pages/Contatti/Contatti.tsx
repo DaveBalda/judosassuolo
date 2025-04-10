@@ -82,7 +82,7 @@ function Contatti() {
             </div>
           </div>
         </div>
-        <div className="h-fit flex flex-col gap-24 items-center py-24">
+        <div className="h-fit flex flex-col gap-24 items-center py-20">
           <div className="contatti-lower items-center font-gidole w-full">
             <form className="contatti-form flex flex-col gap-5 items-center bg-emerald-600/70 w-full rounded-2xl border-2 text-lg">
               <div className="flex flex-col gap-2 w-full">
