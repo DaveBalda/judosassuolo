@@ -35,7 +35,7 @@ function Yudansha() {
                 dan).
               </p>
             </div>
-            <div className="flex flex-row gap-20">
+            <div className="belts">
               <div className="yudansha-small-wrapper">
                 <img src="/images/yudansha/c_nera.png" alt="Cintura Nera" />
               </div>
@@ -46,15 +46,28 @@ function Yudansha() {
                 <img src="/images/yudansha/c_rossa.png" alt="Cintura Nera" />
               </div>
             </div>
+            <div className="belts-small">
+              <div className="flex flex-row items-center gap-20">
+                <div className="yudansha-small-wrapper">
+                  <img src="/images/yudansha/c_nera.png" alt="Cintura Nera" />
+                </div>
+                <div className="yudansha-small-wrapper">
+                  <img src="/images/yudansha/c_b_r.png" alt="Cintura Nera" />
+                </div>
+              </div>
+              <div className="yudansha-small-wrapper">
+                <img src="/images/yudansha/c_rossa.png" alt="Cintura Nera" />
+              </div>
+            </div>
           </div>
         </div>
         <div className="yudansha-regular h-fit flex items-center justify-center py-32 shadow-2xl">
-          <div className="flex flex-row gap-32 items-center">
+          <div className="row-1">
             <div className="yudansha-wrapper">
               <img src="/images/yudansha/fabiogianca.jpeg" />
             </div>
             <div className="flex flex-col gap-20 items-center">
-              <h1 className="text-5xl/20 text-center text-green-800 font-bold font-oswald">
+              <h1 className="text-5xl text-center text-green-800 font-bold font-oswald">
                 Le nostre cinture nere
               </h1>
               <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
@@ -69,7 +82,7 @@ function Yudansha() {
               </div>
             </div>
           </div>
-          <div className="yudansha-list flex flex-row gap-50 justify-center">
+          <div className="yudansha-list">
             <div className="flex flex-col items-center gap-5">
               <h1 className="text-3xl text-center text-green-800 font-bold font-oswald">
                 1° DAN
@@ -136,6 +149,80 @@ function Yudansha() {
               <div className="flex flex-col items-center gap-1 text-xl font-gidole">
                 <p>Bondi Marco</p>
                 <p>Casolari Giancarlo</p>
+              </div>
+            </div>
+          </div>
+          <div className="yudansha-list-small">
+            <div className="yls-child flex flex-row gap-50 justify-center">
+              <div className="flex flex-col items-center gap-5">
+                <h1 className="text-3xl text-center text-green-800 font-bold font-oswald">
+                  1° DAN
+                </h1>
+                <div className="flex flex-col items-center gap-1 text-xl font-gidole">
+                  <p>Battaglia Francesca</p>
+                  <p>Bettuzzi Paolo</p>
+                  <p>Buffagni Fabio</p>
+                  <p>Bulfamante Alessio</p>
+                  <p>Camurani Francesca</p>
+                  <More>
+                    <p>Canali Erica</p>
+                    <p>Canalini Fabio</p>
+                    <p>Canarini Stefano</p>
+                    <p>Casolari Daniele</p>
+                    <p>Cataldo Vincenzo</p>
+                    <p>Cavani Raffaele</p>
+                    <p>Colli Francesco</p>
+                    <p>Cuoghi Matteo</p>
+                    <p>Dal Folco Giancarlo</p>
+                    <p>Di Sano Romano</p>
+                    <p>Fellone Domenico</p>
+                    <p>Gandolfi Emilio</p>
+                    <p>Lista Carlo</p>
+                    <p>Lioia Rossella</p>
+                    <p>Lufrano Federica</p>
+                    <p>Magri Anna</p>
+                    <p>Mangano Roberto</p>
+                    <p>Marani Massimo</p>
+                    <p>Medici Roberta</p>
+                    <p>Montaggioli Nicolò</p>
+                    <p>Nicolini Stefano</p>
+                    <p>Olivastri Chiara</p>
+                    <p>Orlandini Annalisa</p>
+                    <p>Schenetti Caterina</p>
+                    <p>Tirino Nazareno</p>
+                    <p>Vezzani Simone</p>
+                    <p>Zanelli Barbara</p>
+                  </More>
+                </div>
+              </div>
+              <div className="flex flex-col items-center gap-5">
+                <h1 className="text-3xl text-center text-green-800 font-bold font-oswald">
+                  2° DAN
+                </h1>
+                <div className="flex flex-col items-center gap-1 text-xl font-gidole">
+                  <p>Bisi Mauro</p>
+                  <p>Righi Mattia</p>
+                  <p>Scannavino Giovanni</p>
+                </div>
+              </div>
+            </div>
+            <div className="yls-child flex flex-row gap-50 justify-center">
+              <div className="flex flex-col items-center gap-5">
+                <h1 className="text-3xl text-center text-green-800 font-bold font-oswald">
+                  3° DAN
+                </h1>
+                <div className="flex flex-col items-center gap-1 text-xl font-gidole">
+                  <p>Di Martino Daniele</p>
+                </div>
+              </div>
+              <div className="flex flex-col items-center gap-5">
+                <h1 className="text-3xl text-center text-green-800 font-bold font-oswald">
+                  5° DAN
+                </h1>
+                <div className="flex flex-col items-center gap-1 text-xl font-gidole">
+                  <p>Bondi Marco</p>
+                  <p>Casolari Giancarlo</p>
+                </div>
               </div>
             </div>
           </div>

@@ -2,10 +2,25 @@
 
 .yudansha-upper {
   @apply h-fit flex flex-col gap-32 items-center justify-center py-32 bg-gray-200 shadow-2xl px-60;
+  @media (width < 1350px) {
+    @apply px-40;
+  }
+  @media (width < 1200px) {
+    @apply px-20;
+  }
+  @media (width < 500px) {
+    @apply px-10;
+  }
+  @media (width < 400px) {
+    @apply px-5;
+  }
 }
 
 .yudansha-small-wrapper {
   @apply w-[250px] flex overflow-hidden rounded-2xl justify-center;
+  @media (width < 1100px) {
+    @apply w-[200px];
+  }
 }
 
 .yudansha-small-wrapper img {
@@ -14,6 +29,9 @@
 
 .yudansha-wrapper {
   @apply min-w-[450px] max-w-[450px] flex overflow-hidden rounded-2xl justify-center;
+  @media (width < 1180px) {
+    @apply min-w-0 max-w-[auto] w-[full];
+  }
 }
 
 .yudansha-wrapper img {
@@ -22,4 +40,66 @@
 
 .yudansha-regular {
   @apply flex-col gap-32 px-60;
+  @media (width < 1550px) {
+    @apply px-20;
+  }
+  @media (width < 600px) {
+    @apply px-10;
+  }
+  @media (width < 400px) {
+    @apply px-5;
+  }
+}
+
+.row-1 {
+  @apply flex flex-row gap-32 items-center;
+  @media (width < 1180px) {
+    @apply flex-col gap-20;
+  }
+}
+
+.yudansha-list {
+  @apply flex flex-row gap-32 justify-center;
+  @media (width < 1225px) {
+    @apply hidden;
+  }
+  @media (width < 675px) {
+    @apply flex flex-col gap-20 justify-center;
+  }
+}
+
+.yudansha-list-small {
+  @apply hidden;
+  @media (width < 1225px) {
+    @apply flex flex-col items-center gap-20;
+  }
+  @media (width < 675px) {
+    @apply hidden;
+  }
+}
+
+.belts {
+  @apply flex flex-row gap-20;
+  @media (width < 950px) {
+    @apply hidden;
+  }
+  @media (width < 610px) {
+    @apply flex flex-col gap-20;
+  }
+}
+
+.belts-small {
+  @apply hidden;
+  @media (width < 950px) {
+    @apply flex flex-col items-center gap-20;
+  }
+  @media (width < 610px) {
+    @apply hidden;
+  }
+}
+
+.yls-child {
+  @media (width < 800px) {
+    @apply gap-32;
+  }
 }
