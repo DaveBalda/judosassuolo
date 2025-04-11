@@ -27,6 +27,7 @@
 }
 
 .contatti-map {
+  @apply h-[620px];
   @media (width < 450px) {
     @apply h-[400px];
   }
