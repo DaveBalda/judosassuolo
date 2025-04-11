@@ -62,7 +62,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
               </DDItem>
             </div>
           </Dropdown>
-          <NavLink href="#">Media</NavLink>
+          <NavLink href="/media">Media</NavLink>
         </Navbar>
         <main className="min-h-screen">{children}</main>
         <Footer />
@@ -103,7 +103,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
               </SDDItem>
             </div>
           </SDropdown>
-          <SideLink href="#">
+          <SideLink href="/media">
             <div className="flex flex-row gap-2 items-center">
               <IoCamera size={25} />
               <p>Media</p>
