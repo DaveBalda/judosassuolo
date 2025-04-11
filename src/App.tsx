@@ -7,6 +7,7 @@ import Storia from "./pages/Storia/Storia";
 import Corsi from "./pages/Corsi/Corsi";
 import Contatti from "./pages/Contatti/Contatti";
 import Tecniche from "./pages/Tecniche/Tecniche";
+import Yudansha from "./pages/Yudansha/Yudansha";
 
 const router = createBrowserRouter([
   {
@@ -42,6 +43,11 @@ const router = createBrowserRouter([
   {
     path: "/tecniche",
     element: <Tecniche />,
+    errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
+  },
+  {
+    path: "/yudansha",
+    element: <Yudansha />,
     errorElement: <NotFound>Sembra che la pagina non esista!</NotFound>,
   },
 ]);

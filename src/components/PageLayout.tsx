@@ -57,7 +57,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
               <DDItem href="/tecniche" name="Tecniche">
                 <MdSportsMartialArts size={20} />
               </DDItem>
-              <DDItem href="#" name="Yudansha">
+              <DDItem href="/yudansha" name="Yudansha">
                 <GiBlackBelt size={20} />
               </DDItem>
             </div>
@@ -98,7 +98,7 @@ function PageLayout({ children, title }: PageLayoutProps) {
               <SDDItem href="/tecniche" name="Teniche">
                 <MdSportsMartialArts size={15} />
               </SDDItem>
-              <SDDItem href="#" name="Yudansha">
+              <SDDItem href="/yudansha" name="Yudansha">
                 <GiBlackBelt size={15} />
               </SDDItem>
             </div>

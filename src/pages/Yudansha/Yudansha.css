@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.yudansha-upper {
+  @apply h-fit flex flex-col gap-32 items-center justify-center py-32 bg-gray-200 shadow-2xl px-60;
+}
+
+.yudansha-small-wrapper {
+  @apply w-[250px] flex overflow-hidden rounded-2xl justify-center;
+}
+
+.yudansha-small-wrapper img {
+  @apply w-full;
+}
+
+.yudansha-wrapper {
+  @apply min-w-[450px] max-w-[450px] flex overflow-hidden rounded-2xl justify-center;
+}
+
+.yudansha-wrapper img {
+  @apply w-full;
+}
+
+.yudansha-regular {
+  @apply flex-col gap-32 px-60;
+}
