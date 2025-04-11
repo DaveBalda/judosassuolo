@@ -34,8 +34,8 @@ function PageLayout({ children, title }: PageLayoutProps) {
           <Dropdown name="Chi Siamo">
             <div className="flex flex-row gap-3">
               <div>
-                <DDItem href="/contatti" name="Contatti">
-                  <FaRegQuestionCircle size={20} />
+                <DDItem href="/corsi" name="Corsi">
+                  <GiWeightLiftingUp size={20} />
                 </DDItem>
                 <DDItem href="/maestri" name="Maestri">
                   <IoIosPerson size={20} />
@@ -43,11 +43,11 @@ function PageLayout({ children, title }: PageLayoutProps) {
               </div>
               <div className="border-l border-white/50" />
               <div>
-                <DDItem href="/corsi" name="Corsi">
-                  <GiWeightLiftingUp size={20} />
-                </DDItem>
                 <DDItem href="/storia" name="Storia">
                   <FaBook size={20} />
+                </DDItem>
+                <DDItem href="/contatti" name="Contatti">
+                  <FaRegQuestionCircle size={20} />
                 </DDItem>
               </div>
             </div>
@@ -79,17 +79,17 @@ function PageLayout({ children, title }: PageLayoutProps) {
           </SideLink>
           <SDropdown name="Chi Siamo">
             <div className="flex flex-col gap-1 text-[16px]">
-              <SDDItem href="/contatti" name="Contatti">
-                <FaRegQuestionCircle size={15} />
+              <SDDItem href="/corsi" name="Corsi">
+                <GiWeightLiftingUp size={15} />
               </SDDItem>
               <SDDItem href="/maestri" name="Maestri">
                 <IoIosPerson size={15} />
               </SDDItem>
-              <SDDItem href="/corsi" name="Corsi">
-                <GiWeightLiftingUp size={15} />
-              </SDDItem>
               <SDDItem href="/storia" name="Storia">
                 <FaBook size={15} />
+              </SDDItem>
+              <SDDItem href="/contatti" name="Contatti">
+                <FaRegQuestionCircle size={15} />
               </SDDItem>
             </div>
           </SDropdown>

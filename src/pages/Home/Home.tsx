@@ -29,7 +29,7 @@ function Home() {
               </div>
               <a
                 href="/maestri"
-                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
+                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-3xl text-white"
               >
                 I maestri
               </a>
@@ -59,7 +59,7 @@ function Home() {
               </div>
               <a
                 href="/corsi"
-                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
+                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-3xl text-white"
               >
                 I nostri corsi
               </a>
@@ -91,7 +91,7 @@ function Home() {
               </p>
               <a
                 href="/storia"
-                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
+                className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-3xl text-white"
               >
                 La nostra storia
               </a>

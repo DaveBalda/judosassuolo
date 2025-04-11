@@ -8,7 +8,7 @@ function Yudansha() {
       <div className="flex flex-col">
         <div className="yudansha-upper">
           <div className="flex flex-col gap-20 items-center">
-            <h1 className="text-5xl text-center font-bold font-oswald pt-2 pb-3.5 px-4 bg-black rounded-3xl text-white">
+            <h1 className="text-5xl text-center font-bold font-oswald pt-2 pb-3.5 px-8 bg-black rounded-3xl text-white">
               La cintura nera
             </h1>
             <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">

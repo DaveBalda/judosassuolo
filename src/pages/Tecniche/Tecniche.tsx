@@ -61,7 +61,7 @@ function Tecniche() {
             <a
               href="https://it.wikipedia.org/wiki/Judo"
               target="_blank"
-              className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
+              className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-2xl text-white"
             >
               Storia del Judo
             </a>
@@ -100,14 +100,14 @@ function Tecniche() {
                 Vuoi approfondire? Guarda un{" "}
                 <a
                   href="https://www.youtube.com/watch?v=LMKgaMdm9UY"
-                  className="underline text-blue-700 visited:text-red-800"
+                  className="text-red-600 font-bold hover:text-red-800"
                 >
                   video
                 </a>{" "}
                 oppure{" "}
                 <a
                   href="https://www.infojudo.com/tecniche-di-proiezione/go-kyo/"
-                  className="underline text-blue-700 visited:text-red-800"
+                  className="text-red-600 font-bold hover:text-red-800"
                 >
                   leggi questo articolo
                 </a>

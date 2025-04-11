@@ -108,7 +108,7 @@ function Storia() {
                 <a
                   href="https://educajudo.it"
                   target="_blank"
-                  className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-lg text-white"
+                  className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-2xl text-white"
                 >
                   Visita educajudo.it
                 </a>
