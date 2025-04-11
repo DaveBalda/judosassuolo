@@ -12,7 +12,7 @@
     @apply px-20;
   }
   @media (width < 460px) {
-    @apply px-10;
+    @apply px-5;
   }
 }
 
@@ -38,7 +38,7 @@
     @apply px-20;
   }
   @media (width < 460px) {
-    @apply px-10;
+    @apply px-5;
   }
 }
 

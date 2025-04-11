@@ -12,7 +12,7 @@
     @apply px-20;
   }
   @media (width < 500px) {
-    @apply px-10;
+    @apply px-5;
   }
 }
 
@@ -28,7 +28,7 @@
     @apply px-20;
   }
   @media (width < 500px) {
-    @apply px-10;
+    @apply px-5;
   }
 }
 
@@ -51,10 +51,10 @@
     @apply min-w-0 w-5/6;
   }
   @media (width < 500px) {
-    @apply min-w-0 w-[300px];
+    @apply min-w-0 w-full;
   }
   @media (width < 400px) {
-    @apply min-w-0 w-[250px];
+    @apply min-w-0 w-full;
   }
 }
 
