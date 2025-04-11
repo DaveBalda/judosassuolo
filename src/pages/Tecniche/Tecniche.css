@@ -1,17 +1,103 @@
 @import "tailwindcss";
 
+.tecniche-reverse {
+  @apply h-fit flex flex-row-reverse gap-32 items-center justify-center py-32 bg-gray-200 shadow-2xl px-60;
+  @media (width < 1575px) {
+    @apply px-40;
+  }
+  @media (width < 1310px) {
+    @apply flex-col gap-20;
+  }
+  @media (width < 900px) {
+    @apply px-20;
+  }
+  @media (width < 500px) {
+    @apply px-10;
+  }
+}
+
+.tecniche-regular {
+  @apply h-fit flex flex-row gap-32 items-center justify-center py-32 shadow-2xl px-60;
+  @media (width < 1575px) {
+    @apply px-40;
+  }
+  @media (width < 1310px) {
+    @apply flex-col gap-20;
+  }
+  @media (width < 900px) {
+    @apply px-20;
+  }
+  @media (width < 500px) {
+    @apply px-10;
+  }
+}
+
+.tecniche-full {
+  @apply h-fit flex flex-col gap-32 items-center justify-center py-32 bg-emerald-600/50 shadow-2xl px-60;
+  @media (width < 1575px) {
+    @apply px-40;
+  }
+  @media (width < 500px) {
+    @apply px-10;
+  }
+}
+
 .tecniche-wrapper {
   @apply min-w-[500px] flex overflow-hidden rounded-2xl justify-center;
+  @media (width < 1375px) {
+    @apply min-w-[450px];
+  }
+  @media (width < 1310px) {
+    @apply min-w-0 w-5/6;
+  }
+  @media (width < 500px) {
+    @apply min-w-0 w-[300px];
+  }
+  @media (width < 400px) {
+    @apply min-w-0 w-[250px];
+  }
 }
 
 .tecniche-wrapper img {
   @apply w-[500px];
+  @media (width < 1375px) {
+    @apply min-w-[450px];
+  }
+  @media (width < 1310px) {
+    @apply min-w-0 w-full;
+  }
+}
+
+.tecniche-cards {
+  @apply flex flex-row gap-20 items-center;
+  @media (width < 850px) {
+    @apply hidden;
+  }
+  @media (width < 510px) {
+    @apply flex flex-col gap-5;
+  }
+}
+
+.tecniche-cards-mid {
+  @apply hidden items-center;
+  @media (width < 850px) {
+    @apply flex flex-col gap-10;
+  }
+  @media (width < 510px) {
+    @apply hidden;
+  }
 }
 
 .small-wrapper {
   @apply w-[250px] border flex overflow-hidden rounded-2xl justify-center;
+  @media (width < 1250px) {
+    @apply w-[200px];
+  }
 }
 
 .small-wrapper img {
   @apply w-[250px];
+  @media (width < 1250px) {
+    @apply w-[200px];
+  }
 }

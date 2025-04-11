@@ -5,7 +5,7 @@ function Tecniche() {
   return (
     <PageLayout title="Tecniche">
       <div className="flex flex-col">
-        <div className="h-fit flex flex-row-reverse gap-32 items-center justify-center py-32 bg-gray-200 shadow-2xl px-60">
+        <div className="tecniche-reverse">
           <div className="tecniche-wrapper">
             <img src="/images/tecniche/jigorokano.webp" alt="Il Judo" />
           </div>
@@ -27,7 +27,7 @@ function Tecniche() {
             </div>
           </div>
         </div>
-        <div className="h-fit flex flex-row gap-32 items-center justify-center py-32 shadow-2xl px-60">
+        <div className="tecniche-regular">
           <div className="tecniche-wrapper">
             <img src="/images/tecniche/jigorokanored.jpg" alt="Jigoro Kano" />
           </div>
@@ -67,13 +67,13 @@ function Tecniche() {
             </a>
           </div>
         </div>
-        <div className="h-fit flex flex-col gap-32 items-center justify-center py-32 bg-emerald-600/50 shadow-2xl px-60">
+        <div className="tecniche-full">
           <div className="flex flex-col gap-20 items-center">
             <div className="flex flex-col items-center gap-0">
               <h1 className="text-5xl/20 text-center text-black font-bold font-oswald">
                 Go-kyō
               </h1>
-              <h3 className="text-3xl/20 text-center text-black font-bold font-oswald">
+              <h3 className="text-3xl text-center text-black font-bold font-oswald">
                 Le tecniche dei Cinque Gruppi
               </h3>
             </div>
@@ -96,14 +96,46 @@ function Tecniche() {
                 della caduta. Jigoro Kano selezionò dal ju-jitsu, quelle
                 tecniche che meglio rispondevano a criteri educativi e che{" "}
                 <strong>non presentavano pericoli</strong> per i praticanti.
+                <br /> <br />
+                Vuoi approfondire? Guarda un{" "}
+                <a
+                  href="https://www.youtube.com/watch?v=LMKgaMdm9UY"
+                  className="underline text-blue-700 visited:text-red-800"
+                >
+                  video
+                </a>{" "}
+                oppure{" "}
+                <a
+                  href="https://www.infojudo.com/tecniche-di-proiezione/go-kyo/"
+                  className="underline text-blue-700 visited:text-red-800"
+                >
+                  leggi questo articolo
+                </a>
+                .
               </p>
             </div>
-            <div className="flex flex-row gap-20 items-center">
+            <div className="tecniche-cards">
               <div className="small-wrapper">
                 <img src="/images/tecniche/ippon.jpg" alt="Jigoro Kano" />
               </div>
               <div className="small-wrapper">
                 <img src="/images/tecniche/osoto_gari.jpg" alt="Jigoro Kano" />
+              </div>
+              <div className="small-wrapper">
+                <img src="/images/tecniche/taiotoshi.jpg" alt="Jigoro Kano" />
+              </div>
+            </div>
+            <div className="tecniche-cards-mid">
+              <div className="flex flex-row gap-10 items-center">
+                <div className="small-wrapper">
+                  <img src="/images/tecniche/ippon.jpg" alt="Jigoro Kano" />
+                </div>
+                <div className="small-wrapper">
+                  <img
+                    src="/images/tecniche/osoto_gari.jpg"
+                    alt="Jigoro Kano"
+                  />
+                </div>
               </div>
               <div className="small-wrapper">
                 <img src="/images/tecniche/taiotoshi.jpg" alt="Jigoro Kano" />
