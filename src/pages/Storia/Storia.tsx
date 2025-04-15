@@ -66,7 +66,7 @@ function Storia() {
         </div>
         <div className="storia-images-2">
           <img
-            src="/images/storia/corsofiero.jpeg"
+            src="/images/storia/agonistidaniele.jpeg"
             className="w-[auto] h-[400px] rounded-3xl"
             alt="Corso Ragazzi"
           />

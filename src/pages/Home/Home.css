@@ -1,25 +1,15 @@
 @import "tailwindcss";
 
 .home-row-regular {
-  @media (width < 550px) {
-    @apply px-6 flex-col gap-20;
+  @apply px-[10%] py-32 flex-row gap-32;
+  @media (width < 1500px) {
+    @apply px-[5%];
   }
-  @media (width >= 550px) {
-    @apply px-20 flex-col gap-32;
+  @media (width < 1400px) {
+    @apply px-[10%] flex-col;
   }
-  @media (width >= 1000px) {
-    @apply px-40 flex-col gap-32;
-  }
-
-  /* Small Laptop to Large */
-  @media (width >= 1400px) {
-    @apply px-20 flex-row gap-10;
-  }
-  @media (width >= 1500px) {
-    @apply px-32 flex-row gap-20;
-  }
-  @media (width >= 1525px) {
-    @apply px-44 flex-row gap-32;
+  @media (width < 700px) {
+    @apply py-20 gap-10;
   }
 }
 
@@ -36,25 +26,15 @@
 }
 
 .home-row-reversed {
-  @media (width < 550px) {
-    @apply px-6 flex-col gap-20;
+  @apply px-[10%] py-32 flex-row-reverse gap-32;
+  @media (width < 1500px) {
+    @apply px-[5%];
   }
-  @media (width >= 550px) {
-    @apply px-20 flex-col gap-32;
+  @media (width < 1400px) {
+    @apply px-[10%] flex-col;
   }
-  @media (width >= 1000px) {
-    @apply px-40 flex-col gap-32;
-  }
-
-  /* Small Laptop to Large */
-  @media (width >= 1400px) {
-    @apply px-20 flex-row-reverse gap-10;
-  }
-  @media (width >= 1500px) {
-    @apply px-32 flex-row-reverse gap-20;
-  }
-  @media (width >= 1525px) {
-    @apply px-44 flex-row-reverse gap-32;
+  @media (width < 700px) {
+    @apply py-20 gap-10;
   }
 }
 

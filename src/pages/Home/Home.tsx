@@ -5,7 +5,7 @@ function Home() {
   return (
     <PageLayout title="Home">
       <div className="flex flex-col">
-        <div className="home-row-regular h-fit flex items-center justify-center py-32 bg-gray-200 shadow-2xl">
+        <div className="home-row-regular h-fit flex items-center justify-center bg-gray-200 shadow-2xl">
           <div className="home-wrapper">
             <img src="/images/home/logo.webp" alt="Logo JCS" />
           </div>
@@ -36,7 +36,7 @@ function Home() {
             </div>
           </div>
         </div>
-        <div className="home-row-reversed h-fit flex items-center justify-center py-32">
+        <div className="home-row-reversed h-fit flex items-center justify-center">
           <div className="home-wrapper">
             <img src="/images/home/rossella.jpg" alt="Lezione" />
           </div>

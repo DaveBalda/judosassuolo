@@ -2,8 +2,32 @@ import { IoIosMail } from "react-icons/io";
 import PageLayout from "../../components/PageLayout";
 import { CiInstagram } from "react-icons/ci";
 import "./Contatti.css";
+import { FormEvent } from "react";
 
 function Contatti() {
+  const onSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+
+    formData.append("access_key", import.meta.env.VITE_FORM_ACCESS_KEY);
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: json,
+    }).then((res) => res.json());
+
+    if (res.success) {
+      console.log("Success", res);
+    }
+  };
+
   return (
     <PageLayout title="Contatti">
       <div className="flex flex-col">
@@ -84,7 +108,10 @@ function Contatti() {
         </div>
         <div className="h-fit flex flex-col gap-24 items-center py-20">
           <div className="contatti-lower items-center font-gidole w-full">
-            <form className="contatti-form flex flex-col gap-5 items-center bg-emerald-600/70 w-full rounded-2xl border-2 text-lg">
+            <form
+              onSubmit={onSubmit}
+              className="contatti-form flex flex-col gap-5 items-center bg-emerald-600/70 w-full rounded-2xl border-2 text-lg"
+            >
               <div className="flex flex-col gap-2 w-full">
                 <label className="font-oswald text-2xl" htmlFor="name">
                   Nome e cognome
@@ -98,19 +125,19 @@ function Contatti() {
                 />
               </div>
               <div className="flex flex-col gap-2 w-full">
-                <label className="font-oswald text-2xl" htmlFor="name">
+                <label className="font-oswald text-2xl" htmlFor="email">
                   Email
                 </label>
                 <input
                   type="text"
-                  name="name"
+                  name="email"
                   placeholder="Inserisci la tua mail..."
                   required
                   className="rounded-md border bg-gray-200 border-black px-3 py-3 w-full"
                 />
               </div>
               <div className="flex flex-col gap-2 w-full">
-                <label className="font-oswald text-2xl" htmlFor="name">
+                <label className="font-oswald text-2xl" htmlFor="message">
                   Cosa ti serve sapere?
                 </label>
                 <textarea

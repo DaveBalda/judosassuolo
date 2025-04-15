@@ -111,7 +111,7 @@ function Corsi() {
                 <p className="text-xl font-oswald">
                   Il corso si terrà il <strong>lunedì</strong>, il{" "}
                   <strong>mercoledì</strong> e il <strong>venerdì</strong> dalle
-                  ore <strong>19:30</strong> alle ore <strong>20:30</strong>
+                  ore <strong>19:30</strong> alle ore <strong>21:00</strong>
                 </p>
               </div>
               <div className="flex flex-col gap-2 items-center">
