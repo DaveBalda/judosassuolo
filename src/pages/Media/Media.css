@@ -1,1 +1,73 @@
 @import "tailwindcss";
+
+.carousel-wrapper {
+  @apply w-full overflow-hidden rounded-md;
+}
+
+.carousel {
+  @apply w-full h-[500px];
+  @media (width < 600px) {
+    @apply h-[400px];
+  }
+  @media (width < 500px) {
+    @apply h-[300px];
+  }
+  @media (width < 400px) {
+    @apply h-[250px];
+  }
+  @media (width < 350px) {
+    @apply h-[200px];
+  }
+}
+
+.yt-wrapper {
+  @apply w-full h-[420px] overflow-hidden rounded-md;
+  @media (width < 1100px) {
+    @apply h-[500px];
+  }
+  @media (width < 800px) {
+    @apply h-[400px];
+  }
+  @media (width < 500px) {
+    @apply h-[300px];
+  }
+}
+
+.media-main {
+  @apply flex flex-row;
+  @media (width < 1500px) {
+    @apply flex-col;
+  }
+}
+
+.media-row1 {
+  @apply flex flex-col gap-10 items-center w-1/2 px-[5%] py-[5%] bg-gray-200;
+  @media (width < 1500px) {
+    @apply flex-row w-full;
+  }
+  @media (width < 1100px) {
+    @apply flex-col w-full;
+  }
+}
+
+.media-row1 h1 {
+  @media (width < 1500px) {
+    @apply hidden;
+  }
+}
+
+.media-row2 {
+  @apply flex flex-col gap-10 items-center w-1/2 px-[5%] py-24 bg-emerald-600/50;
+  @media (width < 1500px) {
+    @apply flex-row w-full;
+  }
+  @media (width < 1100px) {
+    @apply flex-col w-full;
+  }
+}
+
+.media-row2 h1 {
+  @media (width < 1500px) {
+    @apply hidden;
+  }
+}
