@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gidole&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap");
 @import "tailwindcss";
 
 body {
@@ -9,4 +10,5 @@ body {
 @theme {
   --font-oswald: "Oswald", sans-serif;
   --font-gidole: "Gidole", sans-serif;
+  --font-goth: "Special Gothic Expanded One", sans-serif;
 }

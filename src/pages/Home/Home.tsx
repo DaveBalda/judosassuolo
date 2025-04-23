@@ -78,7 +78,7 @@ function Home() {
               </span>
             </h1>
             <div className="flex flex-col gap-10 items-center">
-              <p className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
+              <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
                 <p>
                   Il nostro team, capitanato dal maestro{" "}
                   <strong>Giancarlo Casolari</strong>, è una realtà ormai da
@@ -88,7 +88,7 @@ function Home() {
                   punto di riferimento per agonisti, amatori e bambini di{" "}
                   <strong>ogni età</strong>.
                 </p>
-              </p>
+              </div>
               <a
                 href="/storia"
                 className="font-gidole bg-red-500 hover:bg-red-600 px-8 py-6 text-xl rounded-3xl text-white"

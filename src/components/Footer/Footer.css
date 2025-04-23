@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+footer {
+  @apply w-full min-h-46 bg-gray-800;
+  @media (width < 700px) {
+    @apply min-h-80;
+  }
+}
+
+.footer-main {
+  @apply flex flex-col items-center py-10;
+}
+
+.footer-socials-lg {
+  @apply flex flex-row items-center gap-32 text-white;
+  @media (width < 700px) {
+    @apply hidden;
+  }
+}
+
+.footer-socials-sm {
+  @apply hidden text-white;
+  @media (width < 700px) {
+    @apply flex flex-col items-center gap-16;
+  }
+}
+
+.footer-socials-sm .child {
+  @apply flex flex-row items-center gap-28 text-white;
+}
+
+.footer-text {
+  @apply flex flex-row items-center gap-3;
+  @media (width < 700px) {
+    @apply flex flex-col items-center gap-1;
+  }
+}
