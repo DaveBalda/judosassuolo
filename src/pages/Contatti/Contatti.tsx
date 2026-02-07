@@ -156,7 +156,7 @@ function Contatti() {
             </form>
             <div className="contatti-map w-full border-2 overflow-hidden rounded-2xl flex items-center justify-center">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2844.293827186829!2d10.767513212173885!3d44.52961599518701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ffcee698a7301%3A0x7ed2b1a9d5f0828e!2sJudo%20Club%20Sassuolo!5e0!3m2!1sit!2sit!4v1743603425642!5m2!1sit!2sit"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4781.959628602149!2d10.791603913921195!3d44.54852636270234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477ffcee698a7301%3A0x7ed2b1a9d5f0828e!2sJudo%20Club%20Sassuolo!5e0!3m2!1sit!2sit!4v1770473287371!5m2!1sit!2sit"
                 loading="lazy"
                 className="w-full h-full"
               ></iframe>
