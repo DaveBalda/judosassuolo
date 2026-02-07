@@ -38,10 +38,10 @@ function Contatti() {
           <div className="icons-large items-center gap-20">
             <div className="flex flex-col gap-3 items-center">
               <h3 className="text-2xl text-center font-bold font-oswald">
-                Giancarlo Casolari
+                Daniele Di Martino
               </h3>
               <p className="text-xl font-gidole">
-                <strong>Cellulare: </strong>3334268884
+                <strong>Cellulare: </strong>3486979204
                 <br />
                 <strong>Mail: </strong>judoclubsassuolo@gmail.com
                 <br />
@@ -71,10 +71,10 @@ function Contatti() {
           <div className="icons-small items-center gap-10">
             <div className="flex flex-col gap-3 items-center">
               <h3 className="text-2xl text-center font-bold font-oswald">
-                Giancarlo Casolari
+                Daniele Di Martino
               </h3>
               <p className="text-xl font-gidole">
-                <strong>Cellulare: </strong>3334268884
+                <strong>Cellulare: </strong>3486979204
                 <br />
                 <strong>Mail: </strong>judoclubsassuolo@gmail.com
                 <br />
