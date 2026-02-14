@@ -10,7 +10,7 @@ function Maestri() {
           <div className="h-fit maestri-row-regular items-center justify-center">
             <div className="maestri-wrapper">
               <img
-                src="/images/maestri/giancarlo.png"
+                src="/images/maestri/giancarlo.jpeg"
                 alt="Giancarlo Casolari"
                 className="maestri-image"
               />
