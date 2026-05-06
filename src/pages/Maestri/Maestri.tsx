@@ -18,7 +18,7 @@ function Maestri() {
             <div className="flex flex-col items-center justify-center gap-16 lg:px-20">
               <div className="flex flex-col items-center gap-3">
                 <h1 className="font-bold font-oswald">Giancarlo Casolari</h1>
-                <h3 className="font-oswald text-green-700">5° DAN</h3>
+                <h3 className="font-oswald text-green-700">6° DAN</h3>
               </div>
               <div className="flex flex-col gap-10 items-center">
                 <div className="text-xl/9 text-center font-gidole flex flex-col gap-2 items-center">
